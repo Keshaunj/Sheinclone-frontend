@@ -1,12 +1,12 @@
 .title-navbar {
   position: sticky;
 
-  background-color: grey;
+  background-color: ;
 
   padding: 0;
-  border: 2px solid black;
+  border: 6px solid black;
   algin-items: center;
-  /* justify-content: space-around; Work on space around property aka space between the navbars to get rid of thick colling border! */
+  justify-content: space-between;
 }
 
 .search-navbar {
@@ -14,13 +14,15 @@
 
   background-color: grey;
 
-  padding: 0;
-  border: 1px solid black;
-  space-between: 20px;
+  padding: 0px ;
+  border: 0px solid black;
+  margin: 0px;
+  space-between: 90px;
   display:flex;
   
   justify-content: center;
 }
+
 
 body {
   margin: 0;
@@ -29,7 +31,13 @@ body {
 .title-navbar ul {
     list-style-type: none; /* Remove default bullets */
     padding: 0;           /* Remove default padding */
-    margin: 0;            /* Remove default margin */
+    margin: 4;            /* Remove default margin */
     display: flex;        /* Use flexbox to arrange items in a row */
     justify-content: space-around; /* Optional: space items evenly */
+}
+
+.Mainheader {
+  justify-content: center;
+ 
+  display:flex;
 }
